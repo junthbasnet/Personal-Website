@@ -1,7 +1,7 @@
 ---
 category: 'education'
 university: 'Kathmandu University'
-degree: `Bachelor Degree in Computer Engineering'
+degree: 'Bachelor Degree in Computer Engineering'
 startDate: 'July 2016'
 endDate: 'Present'
 ---
