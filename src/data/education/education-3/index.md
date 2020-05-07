@@ -1,7 +1,7 @@
 ---
 category: 'education'
 university: 'Kathmandu University'
-degree: 'Bachelor Degree in Computer Engineering'
+degree: ``Bachelor's Degree in Computer Engineering``
 startDate: 'Oct 2008'
 endDate: 'Jul 2010'
 ---
