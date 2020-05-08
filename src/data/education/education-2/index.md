@@ -1,9 +1,9 @@
 ---
 category: 'education'
-university: 'Stanford University'
-degree: 'Master of Science'
-startDate: 'Oct 2008'
-endDate: 'Jul 2010'
+university: 'St. Xavier College, Maitighar'
+degree: 'Plus Two, Science'
+startDate: 'July 2014'
+endDate: 'May 2016'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborist.
+Volunteer, Math Mela organized by Sodalitus De Mathematica.(Dec 2015)
