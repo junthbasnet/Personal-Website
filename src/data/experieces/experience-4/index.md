@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Netlify'
-position: 'Senior Frontend Developer'
-startDate: 'Jun 2015'
-endDate: 'Jan 2018'
+company: 'Kathmandu University Computer Club'
+position: 'Member'
+startDate: 'Mar 2017'
+endDate: 'Present'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Volunteered workshops and events organized by Kathmandu University Computer Club. Gave presentation at Santalum Academy on Cyberbullying.
