@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Pandas'
-percentage: 70
+title: 'CSS'
+percentage: 73
 ---

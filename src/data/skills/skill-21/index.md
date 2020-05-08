@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'NodeJS'
+title: 'Pandas'
 percentage: 70
 ---

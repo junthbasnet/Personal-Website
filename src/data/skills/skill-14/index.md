@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'SQL'
-percentage: 70
+title: 'React'
+percentage: 74
 ---

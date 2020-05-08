@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'OpenCV'
-percentage: 50
+title: 'TypeScript'
+percentage: 76
 ---

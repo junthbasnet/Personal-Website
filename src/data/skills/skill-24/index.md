@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'NodeJS'
+title: 'SQL'
 percentage: 70
 ---

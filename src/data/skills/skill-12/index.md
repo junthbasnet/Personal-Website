@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Scikit-learn'
-percentage: 55
+title: 'JavaScript'
+percentage: 77
 ---

@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'MongoDB'
-percentage: 70
+title: 'Gatsby'
+percentage: 68
 ---

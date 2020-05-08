@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Git|Github'
-percentage: 50
+title: 'Photoshop'
+percentage: 58
 ---
