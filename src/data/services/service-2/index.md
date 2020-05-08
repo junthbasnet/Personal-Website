@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Graphic Design'
+title: 'Machine Learning'
 icon: 'draw-polygon'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Familiar with data preparation, model training, data visualization. Comfortable with Tensorflow, Keras, scikit-learn, pandas.'
 ---
