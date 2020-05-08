@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Python'
+title: 'MongoDB'
 percentage: 70
 ---
