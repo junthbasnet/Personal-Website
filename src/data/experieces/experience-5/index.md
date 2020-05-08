@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'The Great Gasby Inc'
-position: 'CEO & Founder'
-startDate: 'Jan 2018'
+company: 'IT MEET 2020 Kathmandu University'
+position: 'Event Manager'
+startDate: 'Jan 2020'
 endDate: 'Present'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Organized Hackathon, a code fest with a time restriction of 40 hours sponsered by LeapFrog. Managed accomodation, fooding, internet etc.
