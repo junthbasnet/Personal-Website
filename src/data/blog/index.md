@@ -1,5 +1,5 @@
 ---
 category: 'blog section'
-title: 'Projets'
+title: 'Projects'
 subtitle: 'All my projects'
 ---
