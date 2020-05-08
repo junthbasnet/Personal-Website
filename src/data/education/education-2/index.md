@@ -6,4 +6,4 @@ startDate: 'July 2014'
 endDate: 'May 2016'
 ---
 
-Volunteer, Math Mela organized by Sodalitus De Mathematica.(Dec 2015)
+Volunteer, Math Mela organized by Sodalitus De Mathematica.

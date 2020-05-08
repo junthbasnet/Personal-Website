@@ -6,8 +6,8 @@ startDate: 'July 2016'
 endDate: 'Present'
 ---
 
-Event Manager (Hackathon), IT MEET 2020.
-Volunteer (Hackathon), IT MEET 2019.
-Marketing Team, IT MEET 2018.
-Kathmandu University Merit-based scholarship.
+Event Manager (Hackathon), IT MEET 2020.<br>
+Volunteer (Hackathon), IT MEET 2019.<br>
+Marketing Team, IT MEET 2018.<br>
+Kathmandu University Merit-based scholarship.<br>
 KUCAT-CBT 2016 Entrance Topper.
