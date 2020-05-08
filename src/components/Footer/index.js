@@ -21,6 +21,9 @@ const Footer = () => (
         <Styled.Link href="/" rel="noreferrer noopener" target="_blank">
           Behance
         </Styled.Link>
+        <Styled.Link href="/" rel="noreferrer noopener" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </Styled.Link>
       </Styled.Links>
     </Container>
   </Styled.Footer>
