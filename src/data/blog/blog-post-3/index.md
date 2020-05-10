@@ -4,17 +4,14 @@ cover: './ImagesGIFs/1.PNG'
 title: 'Playing Pong with Deep Reinforcement Learning'
 description: '🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards in RL Pong environment.'
 date: '2019-05-12'
-tags: ['Deep Reinforcement Learning', 'Python', 'Keras', 'PyGame', 'Q-Learning']
+tags: ['Deep Reinforcement Learning', 'Python']
 published: true
 ---
 
 🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards in RL Pong environment.
+<br>
 
-<pre>
-<p align="center">
-  <img src="./ImagesGIFs/Pong.gif" width="240" height="180" border="10">
-</p>
-</pre>
+![Playing Pong with Deep Reinforcement Learning.](./cover.gif)
 
 **Sed ut perspiciatis unde omnis**
 
