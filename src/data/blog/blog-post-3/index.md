@@ -24,3 +24,15 @@ This project demonstrates that a convolutional neural network can learn successf
 
 ![Playing Pong with Deep Reinforcement Learning Algorithm.](https://i.imgur.com/HHClFOS.png)<br>
 This algorithm is model-free: it solves the reinforcement learning task directly using samples from the emulator, without explicitly constructing an estimate of emulator. It is also off-policy: it learns about the greedy strategy while following a behaviour distribution that ensures adequate exploration of the state space. In practice, the behaviour distribution is often selected by an `EPSILON-Greedy Strategy` that follows the greedy strategy with probability `1 - EPSILON` and selects a random action with probability `EPSILON`.
+
+| Hyperparamter           | Value    | Description                                                                                                                                       |
+| ----------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Minibatch size          | `100`    | The number of training cases over which each stochastic gradient descent update is computed.                                                      |
+| Replay memory size      | `500000` | SGD updates are sampled from this number of most recent frames.                                                                                   |
+| Agent history length    | `4`      | The number of most recent frames experienced by the agent that is given as input to the Q- Network.                                               |
+| Discount factor         | `0.99`   | Discount factor gamma used in Q-Learning update.                                                                                                  |
+| Learning rate           | `1e-6`   | The learning rate used by adam optimizer.                                                                                                         |
+| Initial exploration     | `1.00`   | The initial value of `EPSILON` in `EPSILON-greedy exploration`.                                                                                   |
+| Final exploration       | `0.1`    | The final value of `EPSILON` in `EPSILON-greedy exploration`.                                                                                     |
+| Final exploration frame | `500000` | The number of frames over which the initial value of `EPSILON` is linearly annealed to it's final value.                                          |
+| Replay start size       | `50000`  | Uniform random policy is run for this number of frames before learning starts and the resulting experience is used to populate the replay memory. |
