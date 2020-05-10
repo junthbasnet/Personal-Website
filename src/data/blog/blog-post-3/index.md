@@ -12,7 +12,7 @@ published: true
 
 ![Playing Pong with Deep Reinforcement Learning.](https://i.imgur.com/KL81DO7.gif)
 
-## Introduction
+### Introduction
 
 Learning to control agents directly from high-dimensional sensory inputs like vision and speech is one of the long-standing challenges of reinforcement learning (RL). Most successful RL applications that operate on these domains have relied on hand-crafted features :sleeping: combined with linear value functions or policy representations. Clearly, the performance of such systems heavily relies on the quality of the feature representation. :smiley: Recent advances in deep learning have made it possible to extract high-level features from raw sensory data, leading to breakthroughs in computer vision and speech recognition. These methods utilize a range of neural network architectures, including **convolutional networks, multilayer perceptrons, restricted Boltzmann machines, and recurrent neural networks, and have exploited both supervised and unsupervised learning**. It seems natural to ask whether similar techniques could also be beneficial for RL with sensory data.
 
