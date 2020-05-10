@@ -9,10 +9,8 @@ published: true
 ---
 
 🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards in RL Pong environment.
-<br>
 
 ![Playing Pong with Deep Reinforcement Learning.](https://i.imgur.com/KL81DO7.gif)
-<br>
 
 ## Introduction
 
