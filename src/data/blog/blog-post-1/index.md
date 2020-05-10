@@ -10,5 +10,5 @@ published: true
 
 Systematically manages the record of student and staff in an educational institutions.
 
-**Source Code is available at:**
-(https://github.com/Junth/Staff-and-student-Management)
+**Source Code is available at:**<br>
+https://github.com/Junth/Staff-and-student-Management
