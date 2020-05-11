@@ -2,7 +2,7 @@
 category: 'blog'
 cover: './ImagesGIFs/1.PNG'
 title: 'Playing Pong with Deep Reinforcement Learning'
-description: '🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards in RL Pong environment.'
+description: '🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional...'
 date: '2019-05-12'
 tags: ['Deep Reinforcement Learning', 'Python']
 published: true
@@ -23,7 +23,35 @@ This project demonstrates that a convolutional neural network can learn successf
 **Algorithm**<br>
 
 ![Playing Pong with Deep Reinforcement Learning Algorithm.](https://i.imgur.com/HHClFOS.png)<br>
-This algorithm is model-free: it solves the reinforcement learning task directly using samples from the emulator, without explicitly constructing an estimate of emulator. It is also off-policy: it learns about the greedy strategy while following a behaviour distribution that ensures adequate exploration of the state space. In practice, the behaviour distribution is often selected by an `EPSILON-Greedy Strategy` that follows the greedy strategy with probability `1 - EPSILON` and selects a random action with probability `EPSILON`.
+This algorithm is model-free: it solves the reinforcement learning task directly using samples from the emulator, without explicitly constructing an estimate of emulator😃. It is also off-policy: it learns about the greedy strategy while following a behaviour distribution that ensures adequate exploration of the state space. In practice, the behaviour distribution is often selected by an `EPSILON-Greedy Strategy` that follows the greedy strategy with probability `1 - EPSILON` and selects a random action with probability `EPSILON`.
+
+**Image Preprocessing**
+
+Working directly with raw RL Pong frames, which are `640 × 480` pixel images with a `128` color palette, can be computationally demanding, so we apply a basic preprocessing step aimed at reducing the input dimensionality. The raw frames are preprocessed by first converting their `RGB` representation to `gray-scale` and down-sampling it to a `80 × 80` image.For the experiments in this paper, the function `φ` from `algorithm 1` applies this preprocessing to the `last 4 frames` of a history and stacks them to produce the input to the Q-function.
+
+**Model Architecture**
+
+There are several possible ways of parameterizing Q using a neural network. Since Q maps history-action pairs to scalar estimates of their Q-value, the history and the action have been used as inputs to the neural network by some previous approaches.
+
+😟 The main drawback of this type of architecture is that a separate forward pass is required to compute the Q-value of each action, resulting in a cost that scales linearly with the number of actions.
+
+😃 We instead use an architecture in which there is a separate output unit for each possible action, and only the state representation is an input to the neural network. The outputs correspond to the predicted Q-values of the individual action for the input state. The main advantage of this type of architecture is the ability to compute Q-values for all possible actions in a given state with only a single forward pass through the network.
+
+![Playing Pong with Deep Reinforcement Learning Model Architecture.](https://i.imgur.com/tawFdAA.png)
+
+The exact architecture is shown schematically in above Figure.
+
+- The **input to the neural network** consists of an `80 × 80 × 4` image produced by the preprocessing map `φ` .
+- The **first hidden layer** convolves `32 filters` of `8 × 8` with `strides 4` with the input image and applies a rectifier nonlinearity.
+- The **second hidden layer** convolves `64 filters` of `4 × 4` with `strides 2` again followed by a rectifier nonlinearity.
+- This is followed by a **third convolutional layer** that convolves `64 filters` of `3 × 3` with `strides 1` followed by a rectifier.
+- Each convolutional layer is followed by `2 × 2` **max pooling layer**.
+- The **final hidden layer** is fully-connected and consists of `256` rectifier units.
+- The **output layer** is a fully connected linear layer with a single output for each valid action. The number of valid actions in Pong is `3`.
+
+**List of Hyperparameters and their values**
+
+The values of all the hyperparameters were selected by performing an informal search on the games Pong, Breakout, Seaquest, Space Invaders and Beam Rider. We did not perform a systematic grid search owing to the high computational cost, although it is conceivable that even better results could be obtained by systematically tuning the hyperparameter values.
 
 | Hyperparamter           | Value    | Description                                                                                                                                       |
 | ----------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,3 +64,40 @@ This algorithm is model-free: it solves the reinforcement learning task directly
 | Final exploration       | `0.1`    | The final value of `EPSILON` in `EPSILON-greedy exploration`.                                                                                     |
 | Final exploration frame | `500000` | The number of frames over which the initial value of `EPSILON` is linearly annealed to it's final value.                                          |
 | Replay start size       | `50000`  | Uniform random policy is run for this number of frames before learning starts and the resulting experience is used to populate the replay memory. |
+
+**Installation Dependencies**
+
+Download `tensorflow 1.9.0` from [tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel/tree/master/1.9.0/py27/CPU/sse2).
+
+```python
+python 2.7
+tensorflow 1.9.0
+pygame 1.9.6
+opencv-python 4.2.0
+```
+
+`Programming IDE: Spyder 4.1.1`
+
+**How to Run?**
+
+```python
+git clone https://github.com/Junth19/Playing-Pong-with-Deep-Reinforcement-Learning.git
+cd Playing-Pong-with-Deep-Reinforcement-Learning
+python DQN Brain.py
+```
+
+**Results**
+
+Better results were achieved after approximately `1.38 million-time steps`, which corresponds to about `48 hours` of game time. Qualitatively, the network played at the level of an experienced human player, usually beating the game with a score of `20 − 2`.
+
+**Youtube Result**: [DQN Playing Pong](https://www.youtube.com/watch?v=OGb382EyOpg).
+
+**References**
+
+1. Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, Rusu, Andrei A, Veness, Joel,
+   Bellemare, Marc G, Graves, Alex, Riedmiller, Martin, Fidjeland, Andreas K, Ostrovski,
+   Georg, et al. [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236).
+
+2. Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, Graves, Alex, Antonoglou, Ioannis, Wier-stra, Daan, and Riedmiller, Martin. [Playing atari with deep reinforcement learning](https://arxiv.org/abs/1312.5602).
+
+3. Guest Post: [Demystifying Deep Reinforcement Learning](https://www.intel.ai/demystifying-deep-reinforcement-learning/#gs.1afy66)
