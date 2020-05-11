@@ -15,7 +15,7 @@ https://github.com/Junth/Pacman-Search
 
 An array of AI techniques is employed to playing Pac-Man. Following _Informed, Uninformed and Adversarial Search algorithms_ are implemented in this project.
 
-_Informed Search Algorithm implemented in this project are Depth First Search(DFS), Breadth First Search(BFS) and Uniform Cost Search(UCS)._
+😮 Informed Search Algorithm implemented in this project are Depth First Search(DFS), Breadth First Search(BFS) and Uniform Cost Search(UCS).
 
 **Depth First Search**
 
@@ -35,7 +35,7 @@ Expand least cost node.
 
 ![Uniform Cost Search](https://i.imgur.com/OuTUUEh.gif)
 
-Uninformed Search Algorithm implemented in this project is _A\* Search Algorithm_.
+😃 Uninformed Search Algorithm implemented in this project is A\* Search Algorithm.
 
 **A\* Search Algorithm**
 
@@ -43,7 +43,7 @@ Minimize the total estimated solution cost.
 
 ![A* Search Algorithm](https://i.imgur.com/vp34as1.gif)
 
-Adversarial Search algorithm implemented in this project are _Minimax Search algorithm and Alpha-Beta Pruning._
+😍 Adversarial Search algorithm implemented in this project are Minimax Search algorithm and Alpha-Beta Pruning.
 
 **Minimax Search Algorithm**
 
