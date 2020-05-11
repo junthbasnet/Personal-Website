@@ -44,7 +44,7 @@ There are several possible ways of parameterizing Q using a neural network. Sinc
 
 The exact architecture is shown schematically in above Figure.
 
-The input to the neural network consists of an `80 × 80 × 4` image produced by the preprocessing map `φ`.The first hidden layer convolves `32 filters` of `8 × 8` with `strides 4` with the input image and applies a rectifier nonlinearity.The second hidden layer convolves `64 filters` of `4 × 4` with `strides 2` again followed by a rectifier nonlinearity.This is followed by a third convolutional layer that convolves `64 filters` of `3 × 3` with `strides 1` followed by a rectifier.Each convolutional layer is followed by `2 × 2` max pooling layer. The final hidden layer is fully-connected and consists of `256` rectifier units. The output layer is a fully connected linear layer with a single output for each valid action. The number of valid actions in Pong is `3`.
+The input to the neural network consists of an `80 × 80 × 4` image produced by the preprocessing map `φ`. The first hidden layer convolves `32 filters` of `8 × 8` with `strides 4` with the input image and applies a rectifier nonlinearity. The second hidden layer convolves `64 filters` of `4 × 4` with `strides 2` again followed by a rectifier nonlinearity.This is followed by a third convolutional layer that convolves `64 filters` of `3 × 3` with `strides 1` followed by a rectifier.Each convolutional layer is followed by `2 × 2` max pooling layer. The final hidden layer is fully-connected and consists of `256` rectifier units. The output layer is a fully connected linear layer with a single output for each valid action. The number of valid actions in Pong is `3`.
 
 **List of Hyperparameters and their values**
 
