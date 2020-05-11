@@ -10,7 +10,7 @@ published: true
 
 🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards in RL Pong environment.
 
-![Playing Pong with Deep Reinforcement Learning.](https://i.imgur.com/KL81DO7.gif)
+![Playing Pong with Deep Reinforcement Learning.](https://i.imgur.com/64aC4UW.gif)
 
 **Introduction**
 
@@ -41,13 +41,13 @@ There are several possible ways of parameterizing Q using a neural network. Sinc
 
 The exact architecture is shown schematically in above Figure.
 
-- The **input to the neural network** consists of an `80 × 80 × 4` image produced by the preprocessing map `φ` .
-- The **first hidden layer** convolves `32 filters` of `8 × 8` with `strides 4` with the input image and applies a rectifier nonlinearity.
-- The **second hidden layer** convolves `64 filters` of `4 × 4` with `strides 2` again followed by a rectifier nonlinearity.
-- This is followed by a **third convolutional layer** that convolves `64 filters` of `3 × 3` with `strides 1` followed by a rectifier.
-- Each convolutional layer is followed by `2 × 2` **max pooling layer**.
-- The **final hidden layer** is fully-connected and consists of `256` rectifier units.
-- The **output layer** is a fully connected linear layer with a single output for each valid action. The number of valid actions in Pong is `3`.
+1.The input to the neural network consists of an `80 × 80 × 4` image produced by the preprocessing map `φ` .
+2.The first hidden layer convolves `32 filters` of `8 × 8` with `strides 4` with the input image and applies a rectifier nonlinearity.
+3.The second hidden layer convolves `64 filters` of `4 × 4` with `strides 2` again followed by a rectifier nonlinearity.
+4.This is followed by a third convolutional layer that convolves `64 filters` of `3 × 3` with `strides 1` followed by a rectifier.
+5.Each convolutional layer is followed by `2 × 2` max pooling layer.
+6.The final hidden layer is fully-connected and consists of `256` rectifier units.
+7.The output layer is a fully connected linear layer with a single output for each valid action. The number of valid actions in Pong is `3`.
 
 **List of Hyperparameters and their values**
 
@@ -69,22 +69,17 @@ The values of all the hyperparameters were selected by performing an informal se
 
 Download `tensorflow 1.9.0` from [tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel/tree/master/1.9.0/py27/CPU/sse2).
 
-```
-python 2.7
-tensorflow 1.9.0
-pygame 1.9.6
-opencv-python 4.2.0
-```
+1.python 2.7
+2.tensorflow 1.9.0
+3.pygame 1.9.6
 
-`Programming IDE: Spyder 4.1.1`
+Programming IDE: Spyder 4.1.1
 
 **How to Run?**
 
-```
-git clone https://github.com/Junth19/Playing-Pong-with-Deep-Reinforcement-Learning.git
-cd Playing-Pong-with-Deep-Reinforcement-Learning
-python DQN Brain.py
-```
+1.git clone https://github.com/Junth19/Playing-Pong-with-Deep-Reinforcement-Learning.git
+2.cd Playing-Pong-with-Deep-Reinforcement-Learning
+3.python DQN Brain.py
 
 **Results**
 
@@ -92,7 +87,7 @@ Better results were achieved after approximately `1.38 million-time steps`, whic
 
 **Youtube Result**: [DQN Playing Pong](https://www.youtube.com/watch?v=OGb382EyOpg).
 
-# References
+**References**
 
 1.Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, Rusu, Andrei A, Veness, Joel,
 Bellemare, Marc G, Graves, Alex, Riedmiller, Martin, Fidjeland, Andreas K, Ostrovski,
