@@ -1,6 +1,6 @@
 ---
 category: 'blog'
-cover: './ImagesGIFs/1.PNG'
+cover: './cover.png'
 title: 'Playing Pong with Deep Reinforcement Learning'
 description: '🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional...'
 date: '2019-05-12'
@@ -41,12 +41,18 @@ There are several possible ways of parameterizing Q using a neural network. Sinc
 
 The exact architecture is shown schematically in above Figure.
 
-1.The input to the neural network consists of an `80 × 80 × 4` image produced by the preprocessing map `φ` .
+1.The input to the neural network consists of an `80 × 80 × 4` image produced by the preprocessing map `φ`.
+
 2.The first hidden layer convolves `32 filters` of `8 × 8` with `strides 4` with the input image and applies a rectifier nonlinearity.
+
 3.The second hidden layer convolves `64 filters` of `4 × 4` with `strides 2` again followed by a rectifier nonlinearity.
+
 4.This is followed by a third convolutional layer that convolves `64 filters` of `3 × 3` with `strides 1` followed by a rectifier.
+
 5.Each convolutional layer is followed by `2 × 2` max pooling layer.
+
 6.The final hidden layer is fully-connected and consists of `256` rectifier units.
+
 7.The output layer is a fully connected linear layer with a single output for each valid action. The number of valid actions in Pong is `3`.
 
 **List of Hyperparameters and their values**
