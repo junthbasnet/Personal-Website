@@ -11,9 +11,9 @@ published: true
 **Source Code is available at:**<br>
 https://github.com/Junth/Pacman-Search
 
-![Pacman Search](https://camo.githubusercontent.com/453762b1e13f05e76777053d9e5bde8a401bf414/68747470733a2f2f696d6775722e636f6d2f50323271655a4d2e676966)
-
 An array of AI techniques is employed to playing Pac-Man. Informed, Uninformed and Adversarial Search algorithms are implemented in this project.
+
+![Pacman Search](https://camo.githubusercontent.com/453762b1e13f05e76777053d9e5bde8a401bf414/68747470733a2f2f696d6775722e636f6d2f50323271655a4d2e676966)
 
 😮 Informed Search Algorithm implemented in this project are Depth First Search(DFS), Breadth First Search(BFS) and Uniform Cost Search(UCS).
 
