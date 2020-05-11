@@ -2,9 +2,9 @@
 category: 'blog'
 cover: './cover.png'
 title: 'Pacman Search'
-description: 'Array of AI Search algorithms is employed to playing Pac-Man ⍩⃝.'
+description: 'Array of AI Search algorithms is employed to playing Pac-Man.'
 date: '2019-10-13'
-tags: ['Python', 'DFS', 'BFS', 'UCS', 'A*']
+tags: ['DFS', 'BFS', 'UCS', 'A*', 'Minimax']
 published: true
 ---
 
@@ -13,7 +13,7 @@ https://github.com/Junth/Pacman-Search
 
 ![Pacman Search](https://camo.githubusercontent.com/453762b1e13f05e76777053d9e5bde8a401bf414/68747470733a2f2f696d6775722e636f6d2f50323271655a4d2e676966)
 
-An array of AI techniques is employed to playing Pac-Man. Following _Informed, Uninformed and Adversarial Search algorithms_ are implemented in this project.
+An array of AI techniques is employed to playing Pac-Man. Informed, Uninformed and Adversarial Search algorithms are implemented in this project.
 
 😮 Informed Search Algorithm implemented in this project are Depth First Search(DFS), Breadth First Search(BFS) and Uniform Cost Search(UCS).
 
