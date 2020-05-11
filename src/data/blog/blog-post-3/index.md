@@ -69,7 +69,7 @@ The values of all the hyperparameters were selected by performing an informal se
 
 Download `tensorflow 1.9.0` from [tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel/tree/master/1.9.0/py27/CPU/sse2).
 
-```python
+```
 python 2.7
 tensorflow 1.9.0
 pygame 1.9.6
@@ -80,7 +80,7 @@ opencv-python 4.2.0
 
 **How to Run?**
 
-```python
+```
 git clone https://github.com/Junth19/Playing-Pong-with-Deep-Reinforcement-Learning.git
 cd Playing-Pong-with-Deep-Reinforcement-Learning
 python DQN Brain.py
@@ -92,12 +92,12 @@ Better results were achieved after approximately `1.38 million-time steps`, whic
 
 **Youtube Result**: [DQN Playing Pong](https://www.youtube.com/watch?v=OGb382EyOpg).
 
-**References**
+# References
 
-1. Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, Rusu, Andrei A, Veness, Joel,
-   Bellemare, Marc G, Graves, Alex, Riedmiller, Martin, Fidjeland, Andreas K, Ostrovski,
-   Georg, et al. [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236).
+1.Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, Rusu, Andrei A, Veness, Joel,
+Bellemare, Marc G, Graves, Alex, Riedmiller, Martin, Fidjeland, Andreas K, Ostrovski,
+Georg, et al. [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236).
 
-2. Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, Graves, Alex, Antonoglou, Ioannis, Wier-stra, Daan, and Riedmiller, Martin. [Playing atari with deep reinforcement learning](https://arxiv.org/abs/1312.5602).
+2.Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, Graves, Alex, Antonoglou, Ioannis, Wier-stra, Daan, and Riedmiller, Martin. [Playing atari with deep reinforcement learning](https://arxiv.org/abs/1312.5602).
 
-3. Guest Post: [Demystifying Deep Reinforcement Learning](https://www.intel.ai/demystifying-deep-reinforcement-learning/#gs.1afy66)
+3.Guest Post: [Demystifying Deep Reinforcement Learning](https://www.intel.ai/demystifying-deep-reinforcement-learning/#gs.1afy66)
