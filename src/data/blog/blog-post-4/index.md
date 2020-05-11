@@ -21,4 +21,4 @@ An array of AI techniques is employed to playing Pac-Man. Following `Informed, U
 
 Expand deepest node.
 
-![Depth First Search](./assets/PacmanDFS.gif)
+![Depth First Search](https://i.imgur.com/8g0u0Ry.gif)
