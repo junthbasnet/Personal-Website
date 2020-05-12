@@ -4,7 +4,7 @@ cover: './cover.png'
 title: 'Peaky Blinders and Money Heist Spoiler Extension'
 description: 'Conceals Peaky Blinders and Money Heist (La Casa De Papel) Spoilers.'
 date: '2020-01-05'
-tags: ['Chrome Extension', 'JS']
+tags: ['Chrome Extension', 'JS', 'jQuery']
 published: true
 ---
 
