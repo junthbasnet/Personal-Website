@@ -1,6 +1,6 @@
 ---
 category: 'blog'
-cover: './cover.jpg'
+cover: './cover.png'
 title: 'bioRxiv & medRxiv COVID19-Sanity'
 description: '🦠😷 Organizes COVID-19 SARS-CoV-2 preprints from medRxiv(preprint server for the health sciences) and bioRxiv...'
 date: '2020-04-02'
