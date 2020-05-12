@@ -13,13 +13,13 @@ https://github.com/Junth/Peaky-Blinders-and-Money-Heist-Spoiler-Extension
 
 \*️⃣ Peaky Blinders and La Casa De Papel (Money Heist) Spoiler Chrome Extension saves you from Peaky Blinders and Money Heist spoilers while browsing internet.
 
-![Peaky Blinders and Money Heist Spoiler Extension](https://i.imgur.com/xbGO3rF.png)
+![Peaky Blinders and Money Heist Spoiler Extension](https://i.imgur.com/6JcaOvR.png)
 
-\*️⃣ **Keywords Used to filter the content:**
+1️⃣ **Keywords Used to filter the content:**
 
 ![](https://i.imgur.com/a8qJKzx.png)
 
-\*️⃣ **Installation Dependencies and How to run?**
+2️⃣ **Installation Dependencies and How to run?**
 
 ![](https://i.imgur.com/K1HyhG6.png)
 ![](https://i.imgur.com/tclgwU0.png)
