@@ -9,7 +9,7 @@ published: true
 ---
 
 **Source Code is available at:**<br>
-https://github.com/Junth/Pacman-Search
+[Github: Pacman Search](https://github.com/Junth/Pacman-Search)
 
 🎮 An array of AI techniques is employed to playing Pac-Man. Informed, Uninformed and Adversarial Search algorithms are implemented in this project.
 

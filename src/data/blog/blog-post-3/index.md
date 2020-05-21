@@ -9,7 +9,7 @@ published: true
 ---
 
 **Source Code is available at:**<br>
-https://github.com/Junth/Playing-Pong-with-Deep-Reinforcement-Learning
+[Github: Playing Pong with Deep Reinforcement Learning](https://github.com/Junth/Playing-Pong-with-Deep-Reinforcement-Learning)
 
 🏓Deep learning model is presented to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards in RL Pong environment.
 

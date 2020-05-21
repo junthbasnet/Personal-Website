@@ -21,7 +21,7 @@ published: true
 
 2️⃣ **Installation Dependencies and How to run?**
 
-[bioRxiv & medRxiv COVID19-Sanity](https://github.com/Junth/bioRxiv-COVID19-Sanity)
+[Github: bioRxiv & medRxiv COVID19-Sanity](https://github.com/Junth/bioRxiv-COVID19-Sanity)
 
 3️⃣ **Results**
 

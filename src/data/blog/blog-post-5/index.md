@@ -9,7 +9,7 @@ published: true
 ---
 
 **Source Code is available at:**<br>
-https://github.com/Junth/Traffic-Sign-Classification-using-ConvNets
+[Github: Traffic Sign Classification using ConvNets](https://github.com/Junth/Traffic-Sign-Classification-using-ConvNets)
 
 🚸⛔Novel Deep Convolutional Network is proposed for traffic sign classification that achieves outstanding performance on GTSRB surpassing the best human performance of 98.84%.
 

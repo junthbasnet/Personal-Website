@@ -9,7 +9,7 @@ published: true
 ---
 
 **Source Code is available at:**<br>
-https://github.com/Junth/Peaky-Blinders-and-Money-Heist-Spoiler-Extension
+[Github: Peaky Blinders and Money Heist Spoiler Extension](https://github.com/Junth/Peaky-Blinders-and-Money-Heist-Spoiler-Extension)
 
 \*️⃣ Peaky Blinders and La Casa De Papel (Money Heist) Spoiler Chrome Extension saves you from Peaky Blinders and Money Heist spoilers while browsing internet.
 
