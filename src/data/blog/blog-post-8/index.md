@@ -1,6 +1,6 @@
 ---
 category: 'blog'
-cover: './cover.jpg'
+cover: './front.png'
 title: 'Facebook Vision'
 description: '👀 Super Simple Chrome Extension that unveils the automated image tags Facebook gives your images.'
 date: '2019-12-25'
@@ -16,6 +16,7 @@ published: true
 ![Facebook Vision](https://i.imgur.com/ryG1gL1.png)
 
 1️⃣ **Introduction**
+
 Every time you upload a photo to Facebook, its deep-learning algorithms go to work, trying to ID things both incredibly specific (which of your friends is in this photo?) and general (Is this photo outdoors or indoors?). But that information is largely hidden from users until now. Facebook Vision allows anyone to see what general information Facebook extracts from every photo that’s been uploaded. Install the extension and head over to Facebook, and you can start immediately seeing which objects Facebook can ID within pretty much any photo.
 
 [Facebook's FAIR Team](https://ai.facebook.com/) label images using Deep-Learning algorithms( Deep ConvNets).
@@ -29,6 +30,7 @@ Emoji is used for most common objects that are extracted by Facebook.
 [Github: Emoji Facebook Vision](https://github.com/Junth/Facebook-Vision)
 
 3️⃣ **How to install Facebook Vision?**
+
 [Github: How to install Facebook Vision?](https://github.com/Junth/Facebook-Vision)
 
 4️⃣ **Results**
