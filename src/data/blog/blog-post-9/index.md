@@ -64,7 +64,7 @@ The values of all the hyperparameters were selected by performing an informal se
 
 6️⃣ **Results**
 
-Better results were achieved after approximately `1.38 million-time steps`, which corresponds to about `48 hours` of game time. Qualitatively, the network played at the level of an experienced human player, usually beating the game with a score of `20 − 2`.
+Better results were achieved after approximately `2.92` million-time steps, which corresponds to about `72` hours of game time. Qualitatively, the network played at the level of an experienced human player.
 
 ▶️ **Youtube Result**:
 
