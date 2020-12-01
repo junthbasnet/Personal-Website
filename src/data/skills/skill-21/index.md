@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Pandas'
+title: 'Pytorch'
 percentage: 70
 ---
