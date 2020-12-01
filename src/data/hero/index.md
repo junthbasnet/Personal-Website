@@ -1,8 +1,8 @@
 ---
 category: 'hero section'
-title: 'Machine Learning Enthusiast'
+title: 'Django Developer'
 subtitle: 'I am Junth Basnet'
-content: 'Highly motivated undergraduate Computer Engineering student actively seeking opportunities. Well-versed in Python, JavaScript, C, C++, ReactJS, NodeJS, HTML, CSS. Interested in Machine Learning, Deep Learning, Natural Language Processing and Reinforcement Learning Projects. Quick Learner and Team Player.'
+content: 'Highly motivated Computer Engineering student graduated from Kathmandu University actively seeking opportunities. Well-versed in Python, Django, JavaScript, ReactJS.'
 linkTo: '/resume/'
 linkText: 'View My Profile'
 ---
