@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Git|Github'
+title: 'Git'
 percentage: 50
 ---
